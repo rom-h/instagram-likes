@@ -4,7 +4,7 @@ function getRandomArbitrary(min, max) {
 
 let likes = 0;
 setInterval(() => {
-    const heart = document.querySelector('svg[aria-label="J'aime"]').parentNode;
+    const heart = document.querySelector('svg[aria-label="J’aime"]').parentNode;
     const arrow = document.querySelector('a.coreSpriteRightPaginationArrow');
     if (heart) {
         heart.click()
