@@ -12,4 +12,4 @@ setInterval(() => {
         console.log(`You've liked ${likes} post(s)`);
     }
     arrow.click();
-}, getRandomArbitrary(5000, 15000)); 
+}, 7439); 
