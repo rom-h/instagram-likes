@@ -1,3 +1,7 @@
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 function getRandomArbitrary(min, max) {
     return Math.random() * (max - min) + min;
 }
